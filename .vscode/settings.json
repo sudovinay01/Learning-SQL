@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "learn-SQL",
+            "driver": "MSSQL",
+            "server": "localhost",
+            "port": 1433,
+            "database": "master",
+            "username": "sa",
+            "password": "YourStrong!Passw0rd987",
+            "connectionTimeout": 30
+        }
+    ]
+}
