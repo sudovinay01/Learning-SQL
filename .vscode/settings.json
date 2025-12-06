@@ -1,7 +1,7 @@
 {
     "sqltools.connections": [
         {
-            "name": "learn-SQL",
+            "name": "learning-SQL",
             "driver": "MSSQL",
             "server": "localhost",
             "port": 1433,
