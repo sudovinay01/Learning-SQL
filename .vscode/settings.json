@@ -10,5 +10,6 @@
             "password": "YourStrong!Passw0rd987",
             "connectionTimeout": 30
         }
-    ]
+    ],
+    "files.eol": "\n"
 }
