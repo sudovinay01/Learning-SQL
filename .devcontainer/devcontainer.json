@@ -15,7 +15,8 @@
     "features": {
         "ghcr.io/devcontainers/features/git:1": {}
     },
-    "forwardPorts": [
-        1433
+    "runArgs": [
+        "-p",
+        "0.0.0.0:1433:1433"
     ]
 }
