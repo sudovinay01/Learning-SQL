@@ -13,7 +13,6 @@ This repository contains resources and exercises for learning SQL (Structured Qu
   - Authentication Type: `SQL Login`
   - User Name: `sa`
   - Password: `YourStrong!Passw0rd987` (check save password box for future use)
-  - DataBase Name: `master`
   - Encrypt: `Optional`
 - Cick `Connect` button. You can see a new connection created in left panel.
 ![connectioncreated.png](<images/ConnectionEntry.png>)
