@@ -6,6 +6,17 @@ This repository contains resources and exercises for learning SQL (Structured Qu
 - click on the green button `Code` -> `Codespaces` -> `Create codespace on main`
 ![quickstart.png](<images/quickstart.png>)
 - wait for the codespace to load
-- run _test.sql_ to see connection to the database is successful.
+- select `SQL Serve` in left panel -> `+ Add Connection` -> fill in the details as below:
+![addconnection.png](<images/AddConnection.png>)
+  - Profile Name: `Learning-SQL`
+  - Server name: `localhost`
+  - Authentication Type: `SQL Login`
+  - User Name: `sa`
+  - Password: `YourStrong!Passw0rd987` (check save password box for future use)
+  - DataBase Name: `master`
+  - Encrypt: `Optional`
+- Cick `Connect` button. You can see a new connection created in left panel.
+![connectioncreated.png](<images/ConnectionEntry.png>)
+- Now we can test connection by running _test.sql file. 
 ![testconnection.png](<images/testconnection.png>)
 - You can run whatever sql queries you want in a `.sql` files.
