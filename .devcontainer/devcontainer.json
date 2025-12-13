@@ -7,8 +7,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "mtxr.sqltools",
-                "mtxr.sqltools-driver-mssql"
+                "ms-mssql.mssql"
             ]
         }
     },
