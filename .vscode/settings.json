@@ -1,15 +1,22 @@
 {
-    "sqltools.connections": [
+    "files.eol": "\n",
+    "mssql.connections": [
         {
-            "name": "learning-SQL",
-            "driver": "MSSQL",
+            "authenticationType": "SqlLogin",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
             "server": "localhost",
-            "port": 1433,
             "database": "master",
-            "username": "sa",
-            "password": "YourStrong!Passw0rd987",
-            "connectionTimeout": 30
+            "user": "sa",
+            "password": "",
+            "commandTimeout": 30,
+            "encrypt": "Optional",
+            "profileName": "Learning-SQL",
+            "savePassword": true,
+            "groupId": "4B1B4503-E611-4FA0-87AA-8A59613AE70B",
+            "id": "AF9F287B-447D-4FED-AEFD-207698F7C5C4",
+            "profileSource": 0
         }
-    ],
-    "files.eol": "\n"
+    ]
 }
