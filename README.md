@@ -29,7 +29,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [TRUNCATE](Topics/DDL/04_TRUNCATE.sql)
     - [x] [COMMENTS](Topics/DDL/05_COMMENTS.sql)
     - [x] [RENAME](Topics/DDL/06_RENAME.sql)
-  - [ ] Data Manipulation Language (DML)
+  - [x] Data Manipulation Language (DML)
     - [x] [INSERT](Topics/DML/01_INSERT.sql)
     - [x] [UPDATE](Topics/DML/02_UPDATE.sql)
     - [x] [DELETE](Topics/DML/03_DELETE.sql)
