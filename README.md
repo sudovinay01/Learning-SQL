@@ -35,5 +35,16 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [DELETE](Topics/DML/03_DELETE.sql)
     - [x] [MERGE](Topics/DML/04_MERGE.sql)
   - [ ] Data Query Language (DQL)
+    - [ ] Basic SELECT
+    - [ ] SELECT with WHERE clause
+    - [ ] SELECT with GROUP BY
+    - [ ] SELECT with HAVING
+    - [ ] SELECT with DISTINCT
+    - [ ] SELECT with LIMIT/OFFSET
+    - [ ] SELECT with ALIASING
+    - [ ] SELECT with ORDER BY
+    - [ ] SELECT with JOINs
+    - [ ] SELECT with Subqueries
+    - [ ] SELECT with SET operations
   - [ ] Data Control Language (DCL)
   - [ ] Transaction Control Language (TCL)
