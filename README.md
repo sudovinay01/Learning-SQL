@@ -33,7 +33,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [INSERT](Topics/DML/01_INSERT.sql)
     - [x] [UPDATE](Topics/DML/02_UPDATE.sql)
     - [x] [DELETE](Topics/DML/03_DELETE.sql)
-    - [ ] MERGE
+    - [x] [MERGE](Topics/DML/04_MERGE.sql)
   - [ ] Data Query Language (DQL)
   - [ ] Data Control Language (DCL)
   - [ ] Transaction Control Language (TCL)
