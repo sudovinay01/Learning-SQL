@@ -1,4 +1,4 @@
--- CLEAN UP
+-- CLEANUP: Ensure the Employees and Employees_backup tables do not exist before creating them.
 DROP TABLE IF EXISTS employees_backup;
 DROP TABLE IF EXISTS employees;
 

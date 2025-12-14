@@ -1,4 +1,4 @@
--- drop table if it already exists
+-- CLEANUP: Ensure the Employees table does not exist before creating it.
 DROP TABLE IF EXISTS Employees;
 
 -- CREATE TABLE statement is used to create a new table in a database.
