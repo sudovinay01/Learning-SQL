@@ -28,6 +28,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [ALTER](Topics/DDL/03_ALTER.sql)
     - [x] [TRUNCATE](Topics/DDL/04_TRUNCATE.sql)
     - [x] [COMMENTS](Topics/DDL/05_COMMENTS.sql)
+    - [x] [RENAME](Topics/DDL/06_RENAME.sql)
   - [ ] Data Manipulation Language (DML)
   - [ ] Data Query Language (DQL)
   - [ ] Data Control Language (DCL)
