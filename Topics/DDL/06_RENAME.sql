@@ -22,7 +22,7 @@ FROM INFORMATION_SCHEMA.TABLES AS AFTER_CREATE
 WHERE TABLE_NAME = 'Employees_Old';
 
 
--- RENAME TABLE statement is used to rename an existing table in a database.
+-- 1) RENAME TABLE statement is used to rename an existing table in a database.
 EXEC sp_rename 'Employees_Old', 'Employees_New';
 -- show all tables in the current database
 SELECT *

@@ -17,7 +17,7 @@ CREATE TABLE employees
     salary DECIMAL(10, 2)
 );
 
--- create a new table named 'employees_backup' by copying the structure and data from the existing 'employees' table
+-- 1) create a new table named 'employees_backup' by copying the structure and data from the existing 'employees' table
 SELECT id AS id_employees_backup, name AS name_employees_backup, salary AS salary_employees_backup
 INTO employees_backup
 FROM employees;

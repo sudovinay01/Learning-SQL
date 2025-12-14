@@ -31,7 +31,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [RENAME](Topics/DDL/06_RENAME.sql)
   - [ ] Data Manipulation Language (DML)
     - [x] [INSERT](Topics/DML/01_INSERT.sql)
-    - [ ] UPDATE
+    - [x] [UPDATE](Topics/DML/02_UPDATE.sql)
     - [ ] DELETE
     - [ ] MERGE
   - [ ] Data Query Language (DQL)

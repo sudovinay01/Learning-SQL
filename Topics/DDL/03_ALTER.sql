@@ -20,13 +20,13 @@ SELECT COLUMN_NAME, DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'Employees';
 
--- Alter the Employees table to add a new column 'position'
+-- 1) Alter the Employees table to add a new column 'position'
 ALTER TABLE Employees
 ADD position VARCHAR(100);
--- Alter the Employees table to drop the 'position' column
+-- 2) Alter the Employees table to drop the 'position' column
 ALTER TABLE Employees
 DROP COLUMN name;
--- Alter the Employees table to modify the 'age' column data type
+-- 3) Alter the Employees table to modify the 'age' column data type
 ALTER TABLE Employees
 ALTER COLUMN age INT;
 

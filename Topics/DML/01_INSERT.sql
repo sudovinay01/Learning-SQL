@@ -16,7 +16,7 @@ CREATE TABLE Employees
     age INT
 );
 
--- INSERT INTO statement is used to insert new records with all column values specified.
+-- 1) INSERT INTO statement is used to insert new records with all column values specified.
 INSERT INTO Employees
 VALUES
     (1, 'Alice', 30);
@@ -25,7 +25,7 @@ VALUES
 SELECT *
 FROM Employees;
 
--- INSERT INTO statement is used to insert new records with specific column values.
+-- 2) INSERT INTO statement is used to insert new records with specific column values.
 INSERT INTO Employees
     (id, name)
 VALUES
@@ -35,7 +35,7 @@ VALUES
 SELECT *
 FROM Employees;
 
--- INSERT MULTIPLE ROWS using a single INSERT statement.
+-- 3) INSERT MULTIPLE ROWS using a single INSERT statement.
 INSERT INTO Employees
 VALUES
     (3, 'Charlie', 25),
@@ -47,15 +47,13 @@ FROM Employees;
 
 
 -- INSERT INTO ... SELECT statement is used to insert records from another table.
--- create another table for demonstration
 CREATE TABLE employees_backup
 (
     id_unique INT PRIMARY KEY,
     name_full VARCHAR(100),
     age_number INT
 );
-
--- INSERT INTO ... SELECT statement is used to insert records from another table.
+-- 4) INSERT INTO ... SELECT statement is used to insert records from another table.
 INSERT INTO employees_backup
 SELECT *
 FROM employees;
@@ -67,7 +65,7 @@ FROM employees_backup;
 -- TRUNCATE TABLE statement is used to remove all records from a table.
 TRUNCATE TABLE employees_backup;
 
--- INSERT SPECIFIC COLUMNS from Employees table into employees_backup table.
+-- 5) INSERT SPECIFIC COLUMNS from Employees table into employees_backup table.
 INSERT INTO employees_backup
     (id_unique, name_full)
 SELECT id, name
@@ -79,7 +77,7 @@ FROM employees_backup;
 -- TRUNCATE TABLE statement is used to remove all records from a table.
 TRUNCATE TABLE employees_backup;
 
--- INSERT based on a condition from Employees table into employees_backup table.
+-- 6) INSERT based on a condition from Employees table into employees_backup table.
 INSERT INTO employees_backup
     (id_unique, name_full, age_number)
 SELECT id, name, age

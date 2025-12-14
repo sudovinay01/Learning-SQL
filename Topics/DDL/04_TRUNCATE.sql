@@ -24,7 +24,7 @@ VALUES
 SELECT *
 FROM Employees;
 
--- TRUNCATE statement is used to remove all records from a table quickly.
+-- 1) TRUNCATE statement is used to remove all records from a table quickly.
 TRUNCATE TABLE Employees;
 -- Verify that the Employees table is empty after truncation
 SELECT *

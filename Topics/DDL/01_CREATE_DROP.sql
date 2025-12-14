@@ -8,7 +8,7 @@ and delete them using DROP statement.
 DROP TABLE IF EXISTS Employees;
 ----------------- CLEANUP -----------------
 
--- CREATE TABLE statement is used to create a new table in a database.
+-- 1) CREATE TABLE statement is used to create a new table in a database.
 CREATE TABLE Employees
 (
     id INT PRIMARY KEY,
@@ -22,7 +22,7 @@ SELECT *
 FROM INFORMATION_SCHEMA.TABLES AS AFTER_CREATE
 WHERE TABLE_NAME = 'Employees';
 
--- DROP table statement is used to delete a table from a database.
+-- 2) DROP table statement is used to delete a table from a database.
 DROP TABLE Employees;
 
 -- verify that the table has been dropped
