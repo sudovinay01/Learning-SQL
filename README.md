@@ -21,9 +21,9 @@ This repository contains resources and exercises for learning SQL (Structured Qu
 - You can run whatever sql queries you want in a `.sql` files.
 
 ## Topics Covered
-- Types of SQL commands
-  - Data Definition Language (DDL)
-  - Data Manipulation Language (DML)
-  - Data Query Language (DQL)
-  - Data Control Language (DCL)
-  - Transaction Control Language (TCL)
+- [ ] Types of SQL commands
+  - [ ] Data Definition Language (DDL)
+  - [ ] Data Manipulation Language (DML)
+  - [ ] Data Query Language (DQL)
+  - [ ] Data Control Language (DCL)
+  - [ ] Transaction Control Language (TCL)
