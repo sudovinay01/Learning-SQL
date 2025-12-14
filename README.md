@@ -23,8 +23,9 @@ This repository contains resources and exercises for learning SQL (Structured Qu
 ## Topics Covered
 - [ ] Types of SQL commands
   - [ ] Data Definition Language (DDL)
-    - [x] [CREATE and DROP table statements](Topics/DDL/01_CREATE_DROP.sql)
+    - [x] [CREATE and DROP](Topics/DDL/01_CREATE_DROP.sql)
     - [x] [CREATE using existing table](Topics/DDL/02_CREATE_FROM_TABLE.sql)
+    - [x] [ALTER](Topics/DDL/03_ALTER.sql)
   - [ ] Data Manipulation Language (DML)
   - [ ] Data Query Language (DQL)
   - [ ] Data Control Language (DCL)
