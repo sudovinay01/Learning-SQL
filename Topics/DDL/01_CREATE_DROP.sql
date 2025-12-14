@@ -1,11 +1,12 @@
--- CLEANUP: Ensure the Employees table does not exist before creating it.
-DROP TABLE IF EXISTS Employees;
-
 /* 
 DESCRIPTION:
 Create database or its objects (table, index, function, views, store procedure and triggers) using CREATE statement
 and delete them using DROP statement. 
 */
+
+----------------- CLEANUP -----------------
+DROP TABLE IF EXISTS Employees;
+----------------- CLEANUP -----------------
 
 -- CREATE TABLE statement is used to create a new table in a database.
 CREATE TABLE Employees

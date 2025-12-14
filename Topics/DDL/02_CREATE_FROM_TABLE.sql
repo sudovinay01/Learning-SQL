@@ -1,11 +1,12 @@
--- CLEANUP: Ensure the Employees and Employees_backup tables do not exist before creating them.
-DROP TABLE IF EXISTS employees_backup;
-DROP TABLE IF EXISTS employees;
-
 /*
 DESCRIPTION:
 Create a new table by copying the structure and data from an existing table using the SELECT INTO statement.
 */
+
+----------------- CLEANUP -----------------
+DROP TABLE IF EXISTS employees_backup;
+DROP TABLE IF EXISTS employees;
+----------------- CLEANUP -----------------
 
 -- create table employees
 CREATE TABLE employees
