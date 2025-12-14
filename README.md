@@ -32,7 +32,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
   - [ ] Data Manipulation Language (DML)
     - [x] [INSERT](Topics/DML/01_INSERT.sql)
     - [x] [UPDATE](Topics/DML/02_UPDATE.sql)
-    - [ ] DELETE
+    - [x] [DELETE](Topics/DML/03_DELETE.sql)
     - [ ] MERGE
   - [ ] Data Query Language (DQL)
   - [ ] Data Control Language (DCL)
