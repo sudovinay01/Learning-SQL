@@ -2,6 +2,11 @@
 DROP TABLE IF EXISTS employees_backup;
 DROP TABLE IF EXISTS employees;
 
+/*
+DESCRIPTION:
+Create a new table by copying the structure and data from an existing table using the SELECT INTO statement.
+*/
+
 -- create table employees
 CREATE TABLE employees
 (
