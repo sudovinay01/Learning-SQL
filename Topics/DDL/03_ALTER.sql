@@ -1,5 +1,3 @@
-
-
 /*
 DESCRIPTION:
 Alter existing database objects using ALTER statement.
