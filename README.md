@@ -37,7 +37,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
   - [x] Data Query Language (DQL)
     - [x] [SELECT](Topics/DQL/01_SELECT.sql)
     - [ ] SQL Operators (can also be use for both DML and DQL)
-      - [ ] Arithmetic Operators
+      - [x] Arithmetic Operators
       - [ ] Comparison Operators
       - [ ] Logical Operators
       - [ ] Bitwise Operators
