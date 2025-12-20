@@ -35,7 +35,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [DELETE](Topics/DML/03_DELETE.sql)
     - [x] [MERGE](Topics/DML/04_MERGE.sql)
   - [x] Data Query Language (DQL)
-    - [x] [SELECT](Topics/DQL/SELECT.sql)
+    - [x] [SELECT](Topics/DQL/01_SELECT.sql)
   - [ ] SQL operators
     - [ ] WHERE
     - [ ] GROUP BY
