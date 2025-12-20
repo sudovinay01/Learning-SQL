@@ -36,19 +36,17 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [MERGE](Topics/DML/04_MERGE.sql)
   - [x] Data Query Language (DQL)
     - [x] [SELECT](Topics/DQL/01_SELECT.sql)
-    - [ ] SQL Operators (can also be use for both DML and DQL)
-      - [x] Arithmetic Operators
-      - [x] Comparison Operators and CASE
-      - [x] Logical Operators
-      - [ ] Bitwise Operators
-      - [ ] LIMIT/OFFSET
-      - [ ] ORDER BY
-      - [ ] GROUP BY
-      - [ ] HAVING
-      - [ ] DISTINCT
-      - [ ] ALIASING
-      - [ ] SET
-      - [ ] JOINs
-      - [ ] Subqueries
+    - [x] SQL Operators (can also be use for both DML and DQL)
+      - [x] [Arithmetic Operators](Topics/DQL/SQL_Operators/01_ARTHMETIC.sql)
+      - [x] [Comparison Operators and CASE](Topics/DQL/SQL_Operators/02_COMPARISON_AND_CASE.sql)
+      - [x] [Logical Operators](Topics/DQL/SQL_Operators/03_LOGICAL.sql)
+      - [x] [LIMIT/OFFSET](Topics/DQL/SQL_Operators/04_LIMIT_OFFSET.sql)
+      - [x] [ORDER BY](Topics/DQL/SQL_Operators/05_ORDER_BY.sql)
+      - [x] [GROUP BY](Topics/DQL/SQL_Operators/06_GROUP_BY.sql)
+      - [x] [HAVING](Topics/DQL/SQL_Operators/07_HAVING.sql)
+      - [x] [DISTINCT](Topics/DQL/SQL_Operators/08_DISTINCT.sql)
+      - [x] [ALIASING](Topics/DQL/SQL_Operators/09_ALIASING.sql)
+      - [x] [JOINs](Topics/DQL/SQL_Operators/11_JOINS.sql)
+      - [x] [Subqueries](Topics/DQL/SQL_Operators/12_SUBQUERIES.sql)
   - [ ] Data Control Language (DCL)
   - [ ] Transaction Control Language (TCL)
