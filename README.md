@@ -36,18 +36,21 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [x] [MERGE](Topics/DML/04_MERGE.sql)
   - [x] Data Query Language (DQL)
     - [x] [SELECT](Topics/DQL/01_SELECT.sql)
-  - [ ] SQL operators
-    - [ ] WHERE
-    - [ ] GROUP BY
-    - [ ] HAVING
-    - [ ] DISTINCT
-    - [ ] LIMIT/OFFSET
-    - [ ] ALIASING
-    - [ ] ORDER BY
-    - [ ] JOINs
-    - [ ] Subqueries
-    - [ ] SET
-    - [ ] IN
-    - [ ] LIKE
+    - [ ] SQL Operators (can also be use for both DML and DQL)
+      - [ ] Arithmetic Operators
+      - [ ] Comparison Operators
+      - [ ] Logical Operators
+      - [ ] Bitwise Operators
+      - [ ] LIMIT/OFFSET
+      - [ ] ORDER BY
+      - [ ] GROUP BY
+      - [ ] HAVING
+      - [ ] DISTINCT
+      - [ ] ALIASING
+      - [ ] SET
+      - [ ] IN
+      - [ ] LIKE
+      - [ ] JOINs
+      - [ ] Subqueries
   - [ ] Data Control Language (DCL)
   - [ ] Transaction Control Language (TCL)
