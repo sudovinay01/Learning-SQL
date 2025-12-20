@@ -39,7 +39,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
     - [ ] SQL Operators (can also be use for both DML and DQL)
       - [x] Arithmetic Operators
       - [x] Comparison Operators and CASE
-      - [ ] Logical Operators
+      - [x] Logical Operators
       - [ ] Bitwise Operators
       - [ ] LIMIT/OFFSET
       - [ ] ORDER BY
@@ -48,8 +48,6 @@ This repository contains resources and exercises for learning SQL (Structured Qu
       - [ ] DISTINCT
       - [ ] ALIASING
       - [ ] SET
-      - [ ] IN
-      - [ ] LIKE
       - [ ] JOINs
       - [ ] Subqueries
   - [ ] Data Control Language (DCL)
