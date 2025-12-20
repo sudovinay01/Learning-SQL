@@ -3,6 +3,7 @@ DESCRIPTION:
     This script demonstrates the use of basic comparison operators in SQL.
     It includes examples of equality, inequality, greater than, less than,
     greater than or equal to, and less than or equal to.
+    It also demonstrates the use of CASE statements for conditional logic.
 */
 
 ----------------- CLEANUP -----------------
