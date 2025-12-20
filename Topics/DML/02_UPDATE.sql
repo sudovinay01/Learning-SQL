@@ -28,6 +28,8 @@ FROM Employees;
 
 -- 1) UPDATE statement is used to modify existing records in a table.
 -- Update the age of the employee with id = 2
+-- we can use operators like =, <>, >, <, >=, <=, BETWEEN, IN, LIKE, IS NULL to conditionally update records.
+-- All operators are covered in operators section
 UPDATE Employees
 SET age = 26
 WHERE id = 2;

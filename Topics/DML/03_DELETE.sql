@@ -28,6 +28,8 @@ FROM Employees;
 
 -- 1) DELETE statement is used to delete specific records from a table.
 -- Delete the employee with id = 2 (Bob)
+-- we can use operators like =, <>, >, <, >=, <=, BETWEEN, IN, LIKE, IS NULL to conditionally delete records.
+-- All operators are covered in operators section
 DELETE FROM Employees
 WHERE id = 2;
 -- Verify the remaining records after deletion

@@ -78,6 +78,8 @@ FROM employees_backup;
 TRUNCATE TABLE employees_backup;
 
 -- 6) INSERT based on a condition from Employees table into employees_backup table.
+-- we can use operators like =, <>, >, <, >=, <=, BETWEEN, IN, LIKE, IS NULL to conditionally insert records.
+-- All operators are covered in operators section
 INSERT INTO employees_backup
     (id_unique, name_full, age_number)
 SELECT id, name, age
