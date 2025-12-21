@@ -21,7 +21,7 @@ This repository contains resources and exercises for learning SQL (Structured Qu
 - You can run whatever sql queries you want in a `.sql` files.
 
 ## Topics Covered
-- [ ] Types of SQL commands
+- [x] Types of SQL commands
   - [x] Data Definition Language (DDL)
     - [x] [CREATE and DROP](Topics/DDL/01_CREATE_DROP.sql)
     - [x] [CREATE using existing table](Topics/DDL/02_CREATE_FROM_TABLE.sql)
