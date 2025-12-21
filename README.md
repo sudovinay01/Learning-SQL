@@ -48,5 +48,12 @@ This repository contains resources and exercises for learning SQL (Structured Qu
       - [x] [ALIASING](Topics/DQL/SQL_Operators/09_ALIASING.sql)
       - [x] [JOINs](Topics/DQL/SQL_Operators/11_JOINS.sql)
       - [x] [Subqueries](Topics/DQL/SQL_Operators/12_SUBQUERIES.sql)
+  - [x] SQL Functions
+    - [x] [Common Functions](Topics/DQL/SQL_Functions/01_COMMON_FUNCTIONS.sql)
+      - String Functions (CONCAT, UPPER, LOWER, SUBSTRING, TRIM, REPLACE, etc.)
+      - Numeric Functions (ABS, ROUND, CEILING, FLOOR, SQRT, POWER, etc.)
+      - Date Functions (GETDATE, YEAR, MONTH, DAY, DATEDIFF, DATEADD, EOMONTH, etc.)
+      - Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
+      - Conditional Functions (CASE, IIF, ISNULL, COALESCE)
   - [ ] Data Control Language (DCL)
   - [ ] Transaction Control Language (TCL)
